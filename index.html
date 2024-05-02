@@ -1,33 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Matchmaker Lite</title>
+<meta charset="UTF-8">
+	
+    <title>Men's Style Hero</title>
+    <style>
+        body {
+            font-family: Aptos, sans-serif;
+            background-color: SteelBlue;
+            line-height: 1.5;
+              height: 7900px;
+
+        }
+            h1 {text-align: center;}
+            h2 {text-align: center;}
+            p {text-align: center;}
+            label {text-align: center;}
+            select {text-align: center;}
+            option {text-align: center;}
+            
+            
+           .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+                        }
+
+.column {
+  float: left;
+  width: 23.33%;
+  padding: 3px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column2 {
+  float: left;
+  width: 23.33%;
+  padding: 3px;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column3 {
+  float: left;
+  width: 23.33%;
+  padding: 3px;
+}
+
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column4 {
+  float: left;
+  width: 23.33%;
+  padding: 3px;
+}
+
+.row4::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        
+        label {
+            font-family: Aptos, sans-serif;
+            background-color: SteelBlue;
+            line-height: 1;
+        }
+        select {
+            padding: 0.5em 0.5em;
+            appearance: none;
+            color: #87CEFA;
+            border-color: White;
+            background-origin: content-box;
+            background-position: right -1em center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            box-sizing: border-box;
+            padding-right: 1.5em;
+      }
+        option {
+            color: #87CEFA;
+            border-color: White;
+             height: 100%;
+            }
+
+        
+        h1     {color: White;}
+        h2     {color: White;} 
+        label  {color: White;font-weight: bold;line-height: 1.45}
+        p      {color: White;}
+    </style>
 </head>
-
 <body>
-	<h1>Matchmaker Lite</h1>
-	<p>Instructions...</p>
+    <h2 class="center" style="font-size:5vw"> Men's Style Hero </h2>
+    <h2 class="center" style="font-size:3vw"> H&M Summer 24'  Edition </h2>
+     <h2 class="center"> Instructions:    Need some help finding a stylish men's outfit to wear today? Take this short quiz to automatically generate a stylish men's outfit, featuring the H&M men's 2024 Summer collection. Simply choose 'Love it' or 'Hate it' under the corresponding fashion styles below and then press the 'Generate My Outfit' button at the bottom of the webpage.   
+     </h2>
+	<h2 class="center"> Scroll down to start the quiz! </h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+  <div class="column">
+    <img src="resort-white.png" alt="resort shirt" width="350" height="600">
+  </div>
+  <div class="column">
+    <img src="seer-suit.png" alt="seer suit" width="350" height="600">
+  </div>
+  <div class="column">
+    <img src="knit-polo.png" alt="knit polo" width="350" height="600">
+  </div>
+    <div class="column">
+    <img src="pin-two.png" alt="pinstripe suit" width="350" height="600">
+  </div>
+</div>
 
-	<label>Nickelback is the greatest rock band of all time.</label><br />
+<br>
+<br>
+	
+<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>                                                  
 	<select id="q1">
-		<option value="5">Strongly Agree</option>
-		<option value="4">Agree</option>
-		<option value="3">Neither agree nor disagree</option>
-		<option value="2">Disagree</option>
-		<option value="1">Strongly Disagree</option>
-	</select>
-	<br /><br />
-
-	<label>Android phones are better than iPhones.</label><br />
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+	
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<select id="q2">
-		<option value="5">Strongly Agree</option>
-		<option value="4">Agree</option>
-		<option value="3">Neither agree nor disagree</option>
-		<option value="2">Disagree</option>
-		<option value="1">Strongly Disagree</option>
-	</select>
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q3">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q4">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<br>
+<br>
+<br>
 
+<div class="row2">
+  <div class="column2">
+    <img src="crotched-hole.png" alt="knit polo" width="350" height="600">
+  </div>
+  <div class="column2">
+    <img src="orange-polo.png" alt="orange black polo" width="350" height="600">
+  </div>
+  <div class="column2">
+    <img src="sunni-two.png" alt="sunglasses" width="350" height="600">
+  </div>
+    <div class="column2">
+    <img src="waffle-polo.png" alt="waffle polo" width="350" height="600">
+  </div>
+</div>
+
+<br>
+<br>
+	
+<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>                                                  
+	<select id="q5">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+	
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q6">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q7">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q8">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<br>
+<br>
+<br>
+
+<div class="row3">
+  <div class="column3">
+    <img src="street-one.png" alt="street one" width="350" height="600">
+  </div>
+  <div class="column3">
+    <img src="street-two.png" alt="street two" width="350" height="600">
+  </div>
+  <div class="column3">
+    <img src="street-five.png" alt="street five" width="350" height="600">
+  </div>
+    <div class="column3">
+    <img src="strret-six.png" alt="street six" width="350" height="600">
+  </div>
+</div>
+    
+<br>
+<br>
+
+<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>                                                  
+	<select id="q9">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+	
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q10">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q11">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q12">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<br>
+<br>
+<br>
+
+	<div class="row4">
+	  <div class="column4">
+    <img src="stripe-one.png" alt="stripe one" width="350" height="600">
+ 	 </div>
+  <div class="column4">
+    <img src="tote-1.png" alt="tote one" width="350" height="600">
+  </div>
+  <div class="column4">
+    <img src="linen-one.png" alt="linen one" width="350" height="600">
+  </div>
+    <div class="column4">
+    <img src="stripe-two.png" alt="stripe two" width="350" height="600">
+  </div>
+
+</div>
+<br>
+<br>
+
+	<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>                                                  
+	<select id="q13">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+	
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q14">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+ <label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q15">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<label style="font-size:1.8vw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style 16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<select id="q16">
+		<option value="0">Select</option>
+		<option value="1">Love it ! </option>
+		<option value="0">Hate it</option>
+	</select>   
+<br>
+<br>
+<br>
+<br>
+<br>
 	<br /><br /><br />
 	<button onclick="calculateCompatibility()">Calculate Compatibility</button>
 	<p id="compatibility"></p>
