@@ -334,19 +334,20 @@
         let streetOneOption = parseInt(question9Response) + parseInt(question10Response) + parseInt(question11Response) + parseInt(question12Response);
         let casualOneOption = parseInt(question13Response) + parseInt(question14Response) + parseInt(question15Response) + parseInt(question16Response);
 
-        if (smartOneOption === 4) {
-            document.getElementById("compatibility").innerHTML = "Your compatibility is 6";
-        } else if (smartTwoOption === 4) {
+        if (smartOneOption >= 2) {
+            document.getElementById("compatibility").innerHTML = "Your compatibility is 6x";
+        } else if (smartTwoOption >= 2) {
             document.getElementById("compatibility").innerHTML = "Your compatibility is 7";
-        } else if (streetOneOption === 4) {
+        } else if (streetOneOption >= 2) {
             document.getElementById("compatibility").innerHTML = "Your compatibility is 8";
-        } else if (casualOneOption === 4) {
+        } else if (casualOneOption >= 2) {
             document.getElementById("compatibility").innerHTML = "Your compatibility is 9";
         } else {
             document.getElementById("compatibility").innerHTML = "No specific compatibility found.";
         }
     }
 </script>
+
 
 
 </body>
