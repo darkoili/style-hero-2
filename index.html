@@ -335,15 +335,8 @@ function calculateCompatibility() {
     let casualOneOption = parseInt(question13Response) + parseInt(question14Response) + parseInt(question15Response) + parseInt(question16Response);
 
     if (smartOneOption >= 2) {
-        document.getElementById("compatibility").innerHTML = `
-            <h2>Woah! You're one SMART guy! Based on your quiz results, you enjoy subtle elegance and a clean look. Here are your outfit suggestions below:</h2>
-            <br>
-            <br>
-            <img class="center" src="smart-one-result.png" alt="smart one result">
-            <p>Relaxed Fit Resort Shirt, Article No. 1165059006</p>
-            <p>Regular Fit Linen Pants, Article No. 1064346019</p>
-            <p>Leather Sandals, Article No. 0853284002</p>
-            <p>Bracelet, Article No. 1221051001</p>`;
+        document.getElementById("compatibility").innerHTML =  "Your compatibility is 7x";
+    }
     } else if (smartTwoOption >= 2) {
         document.getElementById("compatibility").innerHTML = "Your compatibility is 7";
     } else if (streetOneOption >= 2) {
