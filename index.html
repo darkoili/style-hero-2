@@ -345,13 +345,16 @@
 	    
         if (smartOneOption >= 2) {
             document.getElementById("compatibility").innerHTML = resultOne
-        } else if (smartTwoOption >= 2) {
+        } 
+	if (smartTwoOption >= 2) {
             document.getElementById("compatibility2").innerHTML = resultTwo
-        } else if (streetOneOption >= 2) {
+        } 
+	if (streetOneOption >= 2) {
             document.getElementById("compatibility3").innerHTML = resultThree
-        } else if (casualOneOption >= 2) {
+        } 
+	if (casualOneOption >= 2) {
             document.getElementById("compatibility4").innerHTML = resultFour
-        } else {
+        } if else {
             document.getElementById("compatibility").innerHTML = "No specific outfit suggestion found. Please try again";
         }
     }
