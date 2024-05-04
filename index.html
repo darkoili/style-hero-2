@@ -334,18 +334,22 @@
         let streetOneOption = parseInt(question9Response) + parseInt(question10Response) + parseInt(question11Response) + parseInt(question12Response);
         let casualOneOption = parseInt(question13Response) + parseInt(question14Response) + parseInt(question15Response) + parseInt(question16Response);
 
-	let resultOne = "Woah ! Your one SMART guy! Based on your quiz results you enjoy subtle elegance and a clean look. Here are your outfit suggestions below: Relaxed Fit Resort Shirt,&nbspArticle No. 1165059006 Regular Fit Linen Pants,&nbsp&nbspArticle No. 1064346019 Leather Sandals,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 0853284002 Bracelet,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 1221051001 "
-	
+	let resultOne = "Woah ! Your one SMART guy! Based on your quiz results you enjoy subtle elegance and a clean look. Here are your outfit suggestions below: Relaxed Fit Resort Shirt,&nbspArticle No. 1165059006 Regular Fit Linen Pants,&nbsp&nbspArticle No. 1064346019 Leather Sandals,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 0853284002 Bracelet,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 1221051001 smart-one-result.png 
+	let resultTwo = "Woah ! Your one SMART TWO guy! Based on your quiz results you enjoy subtle elegance and a clean look. Here are your outfit suggestions below: Regular Fit Crochet Resort Shirt,&nbspArticle No. 1227289001 Regular Fit Linen Shorts,&nbsp&nbspArticle No. 1137721002 Leather Slides,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 1230414001 Christian Dior Sauvage Eau De Parfum,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 1221051001 smart-two-result.png "
+	let resultThree = "Woah ! Your one STREET guy! Based on your quiz results you enjoy subtle elegance and a clean look. Here are your outfit suggestions below: Loose Fit Short-sleeved Shirt,&nbspArticle No. 1216430003 Relaxed Fit Denim Shorts,&nbsp&nbspArticle No. 1056769007 Adidas Sambas,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 0853284002 Cotton Cap with Embroidery,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 1048567032 street-one-result.png"
+	let resultFour = "Woah ! Your one CASUAL guy! Based on your quiz results you enjoy subtle elegance and a clean look. Here are your outfit suggestions below: Regular Fit Pique T-shirt,&nbsp;Article No. 1213293003 Regular Fit Cropped Cotton Chinos,&nbsp;&nbsp;Article No. 1210038002 Round Sunglasses,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 1044667002 Canvas Tote Bag,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArticle No. 1216591002 casual-one-result.png"
+
+	    
         if (smartOneOption >= 2) {
             document.getElementById("compatibility").innerHTML = resultOne
         } else if (smartTwoOption >= 2) {
-            document.getElementById("compatibility").innerHTML = "Your compatibility is 7";
+            document.getElementById("compatibility").innerHTML = resultTwo
         } else if (streetOneOption >= 2) {
-            document.getElementById("compatibility").innerHTML = "Your compatibility is 8";
+            document.getElementById("compatibility").innerHTML = resultThree
         } else if (casualOneOption >= 2) {
-            document.getElementById("compatibility").innerHTML = "Your compatibility is 9";
+            document.getElementById("compatibility").innerHTML = resultFour
         } else {
-            document.getElementById("compatibility").innerHTML = "No specific compatibility found.";
+            document.getElementById("compatibility").innerHTML = "No specific outfit suggestion found. Please try again";
         }
     }
 </script>
