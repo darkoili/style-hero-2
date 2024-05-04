@@ -310,6 +310,9 @@
 	<br /><br /><br />
 	<button type="button" onclick="calculateCompatibility()">Calculate Compatibility</button>
 	<p id="compatibility"></p>
+	<p id="compatibility2"></p>
+	<p id="compatibility3"></p>
+	<p id="compatibility4"></p>
 <script>
     function calculateCompatibility() {
         let question1Response = document.getElementById("q1").selectedOptions[0].value;
@@ -343,11 +346,11 @@
         if (smartOneOption >= 2) {
             document.getElementById("compatibility").innerHTML = resultOne
         } else if (smartTwoOption >= 2) {
-            document.getElementById("compatibility").innerHTML = resultTwo
+            document.getElementById("compatibility2").innerHTML = resultTwo
         } else if (streetOneOption >= 2) {
-            document.getElementById("compatibility").innerHTML = resultThree
+            document.getElementById("compatibility3").innerHTML = resultThree
         } else if (casualOneOption >= 2) {
-            document.getElementById("compatibility").innerHTML = resultFour
+            document.getElementById("compatibility4").innerHTML = resultFour
         } else {
             document.getElementById("compatibility").innerHTML = "No specific outfit suggestion found. Please try again";
         }
